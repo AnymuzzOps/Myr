@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M&H Consultores | Contabilidad, Tributación y Recursos Humanos</title>
+    <meta
+      name="description"
+      content="Consultora contable, tributaria y de recursos humanos para empresas, pymes y emprendedores. Agenda un diagnóstico con M&H Consultores en Providencia, Santiago."
+    />
+    <meta name="theme-color" content="#082f3d" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#inicio">Saltar al contenido principal</a>
+
+    <header class="site-header" data-header>
+      <nav class="nav container" aria-label="Navegación principal">
+        <a class="brand" href="#inicio" aria-label="M&H Consultores inicio">
+          <span class="brand-mark" aria-hidden="true">M&H</span>
+          <span class="brand-text">
+            <strong>M&H Consultores</strong>
+            <small>Contabilidad · TAX · RRHH</small>
+          </span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Abrir menú de navegación"
+          aria-controls="primary-menu"
+          aria-expanded="false"
+          data-nav-toggle
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-menu" id="primary-menu" data-nav-menu>
+          <a href="#inicio">Inicio</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#oficina-virtual">Oficina Virtual</a>
+          <a href="#planes">Planes</a>
+          <a href="#confianza">Confían en nosotros</a>
+          <a href="#equipo">Equipo</a>
+          <a href="#contacto">Contacto</a>
+          <a class="btn btn-small btn-accent" href="#contacto">Agendar diagnóstico</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="inicio">
+      <section class="hero section-pad" aria-labelledby="hero-title">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <span class="eyebrow">Consultoría integral para empresas</span>
+            <h1 id="hero-title">Optimiza la contabilidad y gestión de tu empresa con asesoría experta</h1>
+            <p>
+              Servicios contables, tributarios y de recursos humanos para empresas, pymes y
+              emprendedores que buscan crecer con orden, respaldo y confianza.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#servicios">Ver servicios</a>
+              <a class="btn btn-outline" href="https://wa.me/56954041860" target="_blank" rel="noopener">
+                Hablar por WhatsApp
+              </a>
+            </div>
+            <div class="trust-strip" aria-label="Beneficios principales">
+              <span>Respuesta cercana</span>
+              <span>Gestión ordenada</span>
+              <span>Criterio tributario</span>
+            </div>
+          </div>
+
+          <aside class="hero-card reveal" aria-label="Formulario rápido de asesoría">
+            <div class="card-badge">Diagnóstico inicial</div>
+            <h2>Agenda una asesoría</h2>
+            <p>Cuéntanos qué necesita tu empresa y nuestro equipo te contactará.</p>
+            <form class="contact-form compact" data-form>
+              <label>
+                <span>Nombre</span>
+                <input type="text" name="nombre" autocomplete="name" required />
+              </label>
+              <label>
+                <span>Email</span>
+                <input type="email" name="email" autocomplete="email" required />
+              </label>
+              <label>
+                <span>Teléfono</span>
+                <input type="tel" name="telefono" autocomplete="tel" required />
+              </label>
+              <label>
+                <span>Servicio de interés</span>
+                <select name="servicio" required>
+                  <option value="">Selecciona una opción</option>
+                  <option>Auditoría</option>
+                  <option>Recursos Humanos</option>
+                  <option>Contabilidad</option>
+                  <option>Consultoría Tributaria</option>
+                  <option>Oficina Virtual</option>
+                  <option>Otro</option>
+                </select>
+              </label>
+              <label>
+                <span>Mensaje opcional</span>
+                <textarea name="mensaje" rows="3" placeholder="Ej: necesito ordenar mi contabilidad mensual"></textarea>
+              </label>
+              <button class="btn btn-primary btn-full" type="submit">Solicitar asesoría</button>
+              <small>No usaremos tus datos para spam.</small>
+            </form>
+          </aside>
+        </div>
+      </section>
+
+      <section class="services section-pad" id="servicios" aria-labelledby="services-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow">Servicios especializados</span>
+            <h2 id="services-title">Soluciones para gestionar tu negocio con claridad</h2>
+            <p>Integramos análisis, cumplimiento y acompañamiento para que cada decisión esté respaldada por información confiable.</p>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card reveal">
+              <div class="icon" aria-hidden="true">⌁</div>
+              <h3>Auditorías</h3>
+              <p>Evaluamos la información financiera de tu empresa para mejorar la confiabilidad y control interno.</p>
+            </article>
+            <article class="service-card reveal">
+              <div class="icon" aria-hidden="true">◈</div>
+              <h3>Recursos Humanos</h3>
+              <p>Apoyamos la gestión laboral, contratos, remuneraciones y cumplimiento normativo.</p>
+            </article>
+            <article class="service-card reveal">
+              <div class="icon" aria-hidden="true">▦</div>
+              <h3>Contabilidad</h3>
+              <p>Ordenamos tu información contable y tributaria para que tomes mejores decisiones.</p>
+            </article>
+            <article class="service-card reveal">
+              <div class="icon" aria-hidden="true">✦</div>
+              <h3>Consultoría Tributaria</h3>
+              <p>Asesoría estratégica para optimizar el cumplimiento y planificación tributaria.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="virtual-office section-pad soft-bg" id="oficina-virtual" aria-labelledby="office-title">
+        <div class="container split-grid">
+          <div class="office-visual reveal" role="img" aria-label="Oficina ejecutiva moderna con vista corporativa">
+            <div class="office-window"></div>
+            <div class="office-panel">
+              <span>Barcelona 2077</span>
+              <strong>Oficina Virtual</strong>
+              <small>Providencia · Santiago</small>
+            </div>
+          </div>
+          <div class="split-copy reveal">
+            <span class="eyebrow">Presencia profesional</span>
+            <h2 id="office-title">Oficina Virtual</h2>
+            <p>
+              Proyecta una imagen profesional, reduce costos operativos y gestiona tu negocio con
+              flexibilidad desde cualquier lugar.
+            </p>
+            <ul class="check-list">
+              <li>Dirección comercial</li>
+              <li>Imagen profesional</li>
+              <li>Ahorro de costos</li>
+              <li>Flexibilidad para emprendedores</li>
+            </ul>
+            <a class="btn btn-primary" href="#contacto">Consultar disponibilidad</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="pricing section-pad" id="planes" aria-labelledby="pricing-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow">Planes contables</span>
+            <h2 id="pricing-title">Acompañamiento mensual según tu etapa</h2>
+            <p>Planes pensados para emprendedores, micro pymes y empresas que necesitan continuidad, orden y asesoría oportuna.</p>
+          </div>
+
+          <div class="pricing-grid">
+            <article class="price-card reveal">
+              <h3>Plan Emprendedor</h3>
+              <p class="price">Desde <strong>$60.000</strong></p>
+              <ul>
+                <li>Contabilidad</li>
+                <li>Impuestos mensuales F29</li>
+                <li>Asesoría online y/o presencial</li>
+              </ul>
+              <a class="btn btn-secondary" href="#contacto">Solicitar plan</a>
+            </article>
+
+            <article class="price-card featured reveal">
+              <span class="popular">Más solicitado</span>
+              <h3>Plan Micro Pyme</h3>
+              <p class="price">Desde <strong>$90.000</strong></p>
+              <ul>
+                <li>Contabilidad</li>
+                <li>Impuestos mensuales F29</li>
+                <li>Asesoría online y/o presencial</li>
+                <li>Remuneraciones hasta 3 trabajadores</li>
+              </ul>
+              <a class="btn btn-accent" href="#contacto">Elegir Micro Pyme</a>
+            </article>
+
+            <article class="price-card reveal">
+              <h3>Plan Empresa</h3>
+              <p class="price">Desde <strong>$200.000</strong></p>
+              <ul>
+                <li>Contabilidad</li>
+                <li>Impuestos mensuales F29</li>
+                <li>Remuneraciones</li>
+                <li>Conciliación bancaria</li>
+                <li>Acompañamiento tributario</li>
+              </ul>
+              <a class="btn btn-secondary" href="#contacto">Solicitar plan</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="metrics section-pad" id="confianza" aria-labelledby="metrics-title">
+        <div class="container metrics-grid">
+          <div class="metrics-copy reveal">
+            <span class="eyebrow">Confianza medible</span>
+            <h2 id="metrics-title">Empresas y emprendedores confían en nuestro equipo para ordenar, optimizar y proyectar su gestión.</h2>
+          </div>
+          <div class="metric-list" aria-label="Métricas de confianza">
+            <div class="metric reveal"><strong data-counter="200">0</strong><span>balances anuales</span></div>
+            <div class="metric reveal"><strong data-counter="400">0</strong><span>clientes felices</span></div>
+            <div class="metric reveal"><strong data-counter="250">0</strong><span>asesorías realizadas</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section-pad" aria-labelledby="about-title">
+        <div class="container split-grid about-grid">
+          <div class="split-copy reveal">
+            <span class="eyebrow">Quiénes somos</span>
+            <h2 id="about-title">Un partner estratégico para decisiones mejor informadas</h2>
+            <p>
+              Somos un equipo multidisciplinario enfocado en entregar soluciones contables,
+              tributarias y de recursos humanos con eficiencia, claridad y atención personalizada.
+              Nuestro propósito es convertirnos en un partner estratégico para cada cliente,
+              entregando información precisa y acompañamiento cercano para la toma de decisiones.
+            </p>
+            <div class="pillars">
+              <span>Eficiencia</span>
+              <span>Confianza</span>
+              <span>Acompañamiento</span>
+            </div>
+          </div>
+          <div class="about-visual reveal" role="img" aria-label="Composición corporativa sobre análisis financiero y gestión de equipos">
+            <div class="floating-card card-one">Cumplimiento TAX</div>
+            <div class="floating-card card-two">Reportes claros</div>
+            <div class="floating-card card-three">Gestión RRHH</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="team section-pad soft-bg" id="equipo" aria-labelledby="team-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow">Equipo</span>
+            <h2 id="team-title">Profesionales que acompañan el crecimiento de tu empresa</h2>
+          </div>
+          <div class="team-grid">
+            <article class="team-card reveal">
+              <div class="avatar" aria-hidden="true">DM</div>
+              <h3>Daniela Mardones</h3>
+              <p>Senior Partner</p>
+            </article>
+            <article class="team-card reveal">
+              <div class="avatar" aria-hidden="true">GM</div>
+              <h3>Gustavo Morales</h3>
+              <p>Director Creativo</p>
+            </article>
+            <article class="team-card reveal">
+              <div class="avatar" aria-hidden="true">JM</div>
+              <h3>Johanna Moya</h3>
+              <p>Analista Recursos Humanos</p>
+            </article>
+            <article class="team-card reveal">
+              <div class="avatar" aria-hidden="true">EB</div>
+              <h3>Estefany Berríos</h3>
+              <p>Asistente Contable y RRHH</p>
+            </article>
+            <article class="team-card reveal">
+              <div class="avatar" aria-hidden="true">FR</div>
+              <h3>Fabiola Ramírez</h3>
+              <p>Partner RRHH / TAX</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-pad" id="contacto" aria-labelledby="contact-title">
+        <div class="container contact-grid">
+          <div class="contact-panel reveal">
+            <span class="eyebrow">Contacto</span>
+            <h2 id="contact-title">Agenda un diagnóstico para tu empresa</h2>
+            <p>Conversemos sobre tus necesidades contables, tributarias o de recursos humanos y definamos el mejor camino.</p>
+            <div class="contact-info">
+              <a href="https://maps.google.com/?q=Barcelona%202077%205%20piso%20Providencia%20Santiago" target="_blank" rel="noopener">
+                <strong>Dirección</strong>
+                Barcelona 2077, 5° piso, Providencia, Santiago
+              </a>
+              <a href="tel:+56954041860"><strong>Teléfono</strong>+56 9 5404 1860</a>
+              <a href="mailto:contacto@myhconsultores.cl"><strong>Email</strong>contacto@myhconsultores.cl</a>
+            </div>
+            <div class="socials" aria-label="Redes sociales">
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
+            </div>
+          </div>
+
+          <div class="contact-card reveal">
+            <form class="contact-form" data-form>
+              <div class="form-row">
+                <label>
+                  <span>Nombre</span>
+                  <input type="text" name="nombre" autocomplete="name" required />
+                </label>
+                <label>
+                  <span>Email</span>
+                  <input type="email" name="email" autocomplete="email" required />
+                </label>
+              </div>
+              <div class="form-row">
+                <label>
+                  <span>Teléfono</span>
+                  <input type="tel" name="telefono" autocomplete="tel" required />
+                </label>
+                <label>
+                  <span>Servicio de interés</span>
+                  <select name="servicio" required>
+                    <option value="">Selecciona una opción</option>
+                    <option>Auditoría</option>
+                    <option>Recursos Humanos</option>
+                    <option>Contabilidad</option>
+                    <option>Consultoría Tributaria</option>
+                    <option>Oficina Virtual</option>
+                    <option>Otro</option>
+                  </select>
+                </label>
+              </div>
+              <label>
+                <span>Mensaje opcional</span>
+                <textarea name="mensaje" rows="5" placeholder="Cuéntanos brevemente qué necesitas"></textarea>
+              </label>
+              <button class="btn btn-primary btn-full" type="submit">Solicitar asesoría</button>
+              <small>No usaremos tus datos para spam.</small>
+              <p class="form-status" role="status" aria-live="polite" data-form-status></p>
+            </form>
+            <div class="map-placeholder" role="img" aria-label="Mapa referencial de Providencia, Santiago">
+              <span>Providencia</span>
+              <strong>Barcelona 2077</strong>
+              <small>Mapa referencial</small>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <a class="whatsapp-float" href="https://wa.me/56954041860" target="_blank" rel="noopener" aria-label="Hablar por WhatsApp">
+      <span>¿Te ayudo?</span>
+      <strong>WhatsApp</strong>
+    </a>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <a class="brand footer-brand" href="#inicio" aria-label="M&H Consultores inicio">
+          <span class="brand-mark" aria-hidden="true">M&H</span>
+          <span class="brand-text">
+            <strong>M&H Consultores</strong>
+            <small>Contabilidad · TAX · RRHH</small>
+          </span>
+        </a>
+        <div class="footer-links" aria-label="Enlaces rápidos">
+          <a href="#servicios">Servicios</a>
+          <a href="#planes">Planes</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+        <p>M&H Consultores © 2026. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
