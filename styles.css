@@ -277,7 +277,7 @@ textarea {
   background: var(--primary);
 }
 
-.hero-bg {
+.hero-bg {   
   position: absolute;
   inset: 0;
   background:
